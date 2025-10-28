@@ -1,8 +1,2 @@
-# Encryption
-Trying to hide text well, try this.
-
-## Todo
-- Make it multi-line
-    Key / Secret
-- Make a web version 
-- Try to make the encryption multi use
+# BetterTools
+Want to have some base tools with the JS ones them here you are!

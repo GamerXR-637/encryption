@@ -55,3 +55,15 @@ FunctionName(paramters)
   console.log(colornohash)
 // Output: eba3b5,5c9f33,4c7bd5
 ```
+
+## FtM(foots)
+```JavaScript
+// FtM(foots)
+// Allows you to convert Feet to Meters
+// Input:
+// foots / how many feets?
+  let meter = FtM(1)
+  console.log(meter)
+// Output: 0.3048
+
+```

@@ -25,7 +25,7 @@ If you use the first option, then the function should be called as
 "name".FunctionName(paramters)
 ```
 
-Els,e this works fine with the second option
+Else this works fine with the second option
 ```JavaScript
 FunctionName(paramters)
 ```

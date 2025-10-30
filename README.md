@@ -1,36 +1,47 @@
-# BetterTools 
+# BetterTools
 
 Some basic tools to make your project easier and better!
 Some categories are:
+
 - Untilites
 - Misc
 - Strings
 - ects
+
 ## Setup
+
 First Run
+
 ```
 git clone https://github.com/GamerXR-637/BetterTools-js.git
 ```
+
 in you terminal or download file `BetterTools`
 
 Second, in your main file, add:
+
 ```JavaScript
 const "name" = require("File Path to the "BetterTools" folder");
 // or
 const { "Functions you want to use" } = require("File Path to the "BetterTools" folder");
 ```
 
-If you use the first option, then the function should be called as 
+If you use the first option, then the function should be called as
+
 ```JavaScript
 "name".FunctionName(paramters)
 ```
 
-Else this works fine with the second option
+Else, this works fine with the second option
+
 ```JavaScript
 FunctionName(paramters)
 ```
 
+# Examples and Usage
+
 ## betterUUID(number)
+
 ```JavaScript
 // betterUUID(number)
 // Allows you to have a custom-made UUID based on your needs
@@ -41,6 +52,7 @@ FunctionName(paramters)
 ```
 
 ## Randcolor(number, hash)
+
 ```JavaScript
 // Randcolor(number, hash)
 // Allows you to get any amount of random colors with the # or out
@@ -54,16 +66,4 @@ FunctionName(paramters)
   let colornohash = Randcolor(3, false)
   console.log(colornohash)
 // Output: eba3b5,5c9f33,4c7bd5
-```
-
-## FtM(foots)
-```JavaScript
-// FtM(foots)
-// Allows you to convert Feet to Meters
-// Input:
-// foots / how many feets?
-  let meter = FtM(1)
-  console.log(meter)
-// Output: 0.3048
-
 ```

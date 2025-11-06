@@ -1,0 +1,22 @@
+{
+  "name": "better-tools-js",
+  "version": "0.0.1",
+  "description": "Some custom JavaScript Function to use in a project!",
+  "keywords": [
+    "js",
+    "function",
+    "custom"
+  ],
+  "homepage": "https://github.com/GamerXR-637/BetterTools-js#readme",
+  "bugs": {
+    "url": "https://github.com/GamerXR-637/BetterTools-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamerXR-637/BetterTools-js.git"
+  },
+  "license": "CC0 1.0 Universal",
+  "author": "GamerXR-637",
+  "type": "commonjs",
+  "main": "BetterTools/index.js"
+}

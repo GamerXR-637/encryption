@@ -13,6 +13,13 @@ const { inRange } = require("./math/inRange.js");
 const { median } = require("./math/median.js");
 const { randomInt } = require("./math/randomInt.js");
 const { triangle } = require("./math/triangle.js");
+const { pointY } = require("./math/pointY.js");
+const { pointX } = require("./math/pointX.js");
+
+const { textToBinary } = require("./text/binary.js");
+const { morseCode } = require("./text/morseCode.js");
+
+const { cat } = require("./useless/cat.js");
 
 module.exports = {
   average,
@@ -29,4 +36,9 @@ module.exports = {
   triangle,
   truncate,
   median,
+  textToBinary,
+  morseCode,
+  cat,
+  pointX,
+  pointY,
 };

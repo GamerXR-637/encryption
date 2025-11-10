@@ -8,7 +8,8 @@ function string() {
   const characters =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   let result = "";
-  let rand = Math.floor(Math.random() * 10);
+  //Generate a random length between 5 and 10
+  let rand = Math.floor(Math.random() * 6) + 5;
   for (let i = 0; i < rand; i++) {
     result += characters.charAt(Math.floor(Math.random() * characters.length));
   }

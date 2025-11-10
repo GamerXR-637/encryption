@@ -77,15 +77,15 @@ FunctionName(parameters)
 
 ## Math
 
-  inRange
-  cylinderVolume
-  circleArea
-  randomInt
-  average
-  multiplyPoly
-  pointY
-  triangle
-  pointX
+  inRange,
+  cylinderVolume,
+  circleArea,
+  randomInt,
+  average,
+  multiplyPoly,
+  pointY,
+  triangle,
+  pointX,
   median
 
 ## Text
@@ -96,15 +96,15 @@ FunctionName(parameters)
 
 ## Tools
 
-  seededRandom
-  colorTerminal
-  betterUUID
-  rgbToHex
-  Randcolor
-  sleep
+  seededRandom,
+  colorTerminal,
+  betterUUID,
+  rgbToHex,
+  Randcolor,
+  sleep,
   percent
 
 ## Useless
 
-  FtM
-  cat
+  FtM,
+  cat,

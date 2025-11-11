@@ -2,35 +2,36 @@ Functions Names
 
 ------ Math ------
 
-  inRange
-  cylinderVolume
-  circleArea
-  randomInt
-  average
-  multiplyPoly
-  pointY
-  triangle
-  pointX
-  median
-  pointSlope
+inRange
+cylinderVolume
+circleArea
+randomInt
+average
+multiplyPoly
+pointY
+triangle
+pointX
+median
+pointSlope
+quadratic
 
 ------ Text ------
 
-  truncate
-  morseCode
-  textToBinary
+truncate
+morseCode
+textToBinary
 
 ------ Tools ------
 
-  seededRandom
-  colorTerminal
-  betterUUID
-  rgbToHex
-  Randcolor
-  sleep
-  percent
+seededRandom
+colorTerminal
+betterUUID
+rgbToHex
+Randcolor
+sleep
+percent
 
 ------ Useless ------
 
-  FtM
-  cat
+FtM
+cat

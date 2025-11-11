@@ -19,6 +19,7 @@ const { multiplyPoly } = require("./math/multiplyPoly.js");
 const { seededRandom } = require("./math/seededRandom.js");
 const { percent } = require("./math/percent.js");
 const { pointSlope } = require("./math/pointSlope.js");
+const { quadratic } = require("./math/quadratic.js");
 
 const { textToBinary } = require("./text/binary.js");
 const { morseCode } = require("./text/morseCode.js");
@@ -49,4 +50,5 @@ module.exports = {
   seededRandom,
   percent,
   pointSlope,
+  quadratic,
 };

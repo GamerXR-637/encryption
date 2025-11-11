@@ -12,6 +12,7 @@ Functions Names
   triangle
   pointX
   median
+  pointSlope
 
 ------ Text ------
 

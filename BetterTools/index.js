@@ -18,6 +18,7 @@ const { pointX } = require("./math/pointX.js");
 const { multiplyPoly } = require("./math/multiplyPoly.js");
 const { seededRandom } = require("./math/seededRandom.js");
 const { percent } = require("./math/percent.js");
+const { pointSlope } = require("./math/pointSlope.js");
 
 const { textToBinary } = require("./text/binary.js");
 const { morseCode } = require("./text/morseCode.js");
@@ -47,4 +48,5 @@ module.exports = {
   multiplyPoly,
   seededRandom,
   percent,
+  pointSlope,
 };

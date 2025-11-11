@@ -86,7 +86,8 @@ FunctionName(parameters)
   pointY,
   triangle,
   pointX,
-  median
+  median,
+  pointSlope
 
 ## Text
 

@@ -15,7 +15,14 @@ function quadratic(a = 1, b = 4, c = 3) {
   let d = b ** 2 - 4 * a * c;
   let sq = Math.sqrt(d);
   if (d < 0) {
-    return "No real Numbers";
+    let r = -b / (2 * a);
+    let i = Math.sqrt(-d) / (2 * a);
+
+    return `${r} ± ${i}i`;
+  } else if (d === 0) {
+    let omx = -b - sq;
+    let index = omx / (2 * a);
+    return [index];
   }
   let mx = -b - sq;
   let px = -b + sq;

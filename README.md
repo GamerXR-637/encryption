@@ -1,6 +1,11 @@
 # BetterTools
 
 Some basic tools to make your project easier and better!
+All of these function are not used in other function.
+That mean you can just copy the code of one of the function that you need without downloading all the function.
+And some will have comments to explain how it works
+
+
 Some categories are:
 
 - Utilities
@@ -23,20 +28,22 @@ Second, in your main file, add:
 
 ```JavaScript
 const "name" = require("File Path to the "BetterTools" folder");
-// or
 // Name can be anything
+//or
 const { "Functions you want to use" } = require("File Path to the "BetterTools" folder");
 // This is better to allow you to use only certain functions
 // [See at the end for a list of function]
 ```
+[List](https://github.com/GamerXR-637/BetterTools-js/edit/main/README.md#functions-names)
 
 If you use the first option, then the function should be called as
-
+Due to you are using this option you are importing all the function.
 ```JavaScript
 "name".FunctionName(parameters)
 ```
 
 Else, this works fine with the second option
+You will be importing the function that you only need
 
 ```JavaScript
 FunctionName(parameters)
@@ -72,6 +79,7 @@ FunctionName(parameters)
   console.log(color_no_hash)
 // Output: eba3b5,5c9f33,4c7bd5
 ```
+
 
 # Functions Names
 
@@ -110,3 +118,4 @@ percent
 
 FtM,
 cat,
+

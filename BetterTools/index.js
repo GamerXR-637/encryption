@@ -4,7 +4,7 @@ const { FtM } = require("./useless/FtM.js");
 const { Randcolor } = require("./tools/Randcolor.js");
 const { rgbToHex } = require("./tools/rgbtohex.js");
 const { sleep } = require("./tools/sleep.js");
-const { truncate } = require("./text/truncate.js");
+const { seededRandom } = require("./tools/seededRandom.js");
 
 const { average } = require("./math/average.js");
 const { circleArea } = require("./math/circleArea.js");
@@ -16,11 +16,11 @@ const { triangle } = require("./math/triangle.js");
 const { pointY } = require("./math/pointY.js");
 const { pointX } = require("./math/pointX.js");
 const { multiplyPoly } = require("./math/multiplyPoly.js");
-const { seededRandom } = require("./math/seededRandom.js");
 const { percent } = require("./math/percent.js");
 const { pointSlope } = require("./math/pointSlope.js");
 const { quadratic } = require("./math/quadratic.js");
 
+const { truncate } = require("./text/truncate.js");
 const { textToBinary } = require("./text/binary.js");
 const { morseCode } = require("./text/morseCode.js");
 
@@ -52,3 +52,4 @@ module.exports = {
   pointSlope,
   quadratic,
 };
+

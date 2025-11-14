@@ -6,6 +6,15 @@
  */
 
 function multiplyPoly(PolynomialOne, PolynomialTwo) {
+  if (
+    !polynomialOne ||
+    !polynomialOne.trim() ||
+    !polynomialTwo ||
+    !polynomialTwo.trim()
+  ) {
+    return "Error: Please provide two valid polynomials to calculate.";
+  }
+
   let result = new Array(PolynomialOne.length + PolynomialTwo.length - 1).fill(
     0
   );

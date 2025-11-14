@@ -5,7 +5,6 @@ All of these function are not used in other function.
 That mean you can just copy the code of one of the function that you need without downloading all the function.
 And some will have comments to explain how it works
 
-
 Some categories are:
 
 - Utilities
@@ -34,10 +33,12 @@ const { "Functions you want to use" } = require("File Path to the "BetterTools" 
 // This is better to allow you to use only certain functions
 // [See at the end for a list of function]
 ```
+
 ## [List of Function](https://github.com/GamerXR-637/BetterTools-js?tab=readme-ov-file#functions-names)
 
 If you use the first option, then the function should be called as
 Due to you are using this option you are importing all the function.
+
 ```JavaScript
 "name".FunctionName(parameters)
 ```
@@ -80,44 +81,42 @@ FunctionName(parameters)
 // Output: eba3b5,5c9f33,4c7bd5
 ```
 
-
 # Functions Names
 
 ## Math
 
-inRange,
-cylinderVolume,
-circleArea,
-randomInt,
-average,
-multiplyPoly,
-pointY,
-triangle,
-pointX,
-median,
-pointSlope,
-quadratic
+cylinderVolume - Calculate the volume of a cylinder | Input: [radius (Default: 3), pi (Default: true), hight (Default: 2)]
+<br>multiplyPoly - Calculate the product of 2 polynomials | Input: [poly1 (Array), poly2 (Array)]
+<br>pointSlope - Calculate the y=mx+b formula from 2 point | Input: [x1, y1, x2, y2]
+<br>circleArea - Calculate the area of a circle | Input: [radius (Default: 3), pi (Default: true)]
+<br>randomInt - Get a random Integer | Input: [number (Default: 10)]
+<br>quadratic - Get the zeros of a quadratic formula | Input: [a (Default: 1), b (Default: 4), c (Default: 3)]
+<br>triangle - Calculate the area of a triangle | Input: [legOne (Default: 3), legTwo (Default: 4)]
+<br>average - Calculate the average of a array | Input: [numbers (Array)]
+<br>inRange - Get if a number is in range | Input: [x (Default: 0), y (Default: 10), value (Default: 1)]
+<br>percent - Calculate the percentage of a ratio | Input: [numerator (Default: 3), denominator (Default: 4)]
+<br>median - Calculate the median of a array | Input: [numbers (Array)]
+<br>pointY -  Calculates where the p0int is when y = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
+<br>pointX - Calculates where the p0int is when x = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
 
 ## Text
 
-truncate
-morseCode
-textToBinary
+binary - Turn text into Binary | Input: [text]
+<br>morseCode - Turn text into Morse Code | Input: [text]
+<br>truncate - Cut the text with "..." | Input: [text, number (Default: 5)]
 
 ## Tools
 
-seededRandom,
-colorTerminal,
-betterUUID,
-rgbToHex,
-Randcolor,
-sleep,
-percent
+colorTerminal - Logs in color | Input: [text, color]
+<br>seededRandom - Get a random number based on a seed | Input: [seed (Default: 637)]
+<br>betterUUID - Create a custom UUID | Input: [number (Default: 3)]
+<br>Randcolor - Get random color | Input: [number (Default: 1), hash (Default: true)]
+<br>rgbtohex - Convert RGB to Hex | Input: [r, g, b]
+<br>scope - Loop and delay a function | Input: [fun, loop, delay]
+<br>sleep - Cause a the code to pause for n | Input: [seconds (Default: 10)]
 
 ## Useless
 
-FtM,
-cat,
 
-
-
+cat - Just Cat | Input: [text]
+<br>load - Create a loading sign | Input: [message, n]

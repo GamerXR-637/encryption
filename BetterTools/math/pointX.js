@@ -12,5 +12,5 @@ function pointX(x = 3, y = 4, n = 1) {
   let result = `(${px},${py})`;
   return result;
 }
-// \left(2c-p_{ointx3},p_{ointy3}\right)
+// \left(2c-px,p_{ointy3}\right)
 module.exports = { pointX };

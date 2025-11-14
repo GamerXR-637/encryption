@@ -1,5 +1,5 @@
 /**
- * Calculates where the pint is when x = n
+ * Calculates where the p0int is when y = n
  *
  * @param {number} [x=3] - The x value of the original point.
  * @param {number} [y=4] - The y value of the original point.
@@ -12,5 +12,5 @@ function pointY(x = 3, y = 4, n = 1) {
   let result = `(${px},${py})`;
   return result;
 }
-// \left(2c-p_{ointx3},p_{ointy3}\right)
+
 module.exports = { pointY };

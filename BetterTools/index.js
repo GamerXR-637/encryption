@@ -3,6 +3,7 @@ const { seededRandom } = require("./tools/seededRandom.js");
 const { betterUUID } = require("./tools/betterUUID.js");
 const { Randcolor } = require("./tools/Randcolor.js");
 const { rgbToHex } = require("./tools/rgbtohex.js");
+const { scope } = require("./tools/scope.js");
 const { sleep } = require("./tools/sleep.js");
 
 const { cylinderVolume } = require("./math/cylinderVolume.js");
@@ -23,7 +24,7 @@ const { textToBinary } = require("./text/binary.js");
 const { morseCode } = require("./text/morseCode.js");
 const { truncate } = require("./text/truncate.js");
 
-const { FtM } = require("./useless/FtM.js");
+const { load } = require("./useless/load.js");
 const { cat } = require("./useless/cat.js");
 
 module.exports = {
@@ -46,10 +47,10 @@ module.exports = {
   inRange,
   percent,
   pointY,
+  scope,
   pointX,
   median,
   sleep,
-  FtM,
+  load,
   cat,
 };
-

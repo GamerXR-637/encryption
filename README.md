@@ -34,7 +34,7 @@ const { "Functions you want to use" } = require("File Path to the "BetterTools" 
 // This is better to allow you to use only certain functions
 // [See at the end for a list of function]
 ```
-[List](https://github.com/GamerXR-637/BetterTools-js?tab=readme-ov-file#functions-names)
+## [List of Function](https://github.com/GamerXR-637/BetterTools-js?tab=readme-ov-file#functions-names)
 
 If you use the first option, then the function should be called as
 Due to you are using this option you are importing all the function.
@@ -118,5 +118,6 @@ percent
 
 FtM,
 cat,
+
 
 

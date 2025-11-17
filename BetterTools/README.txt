@@ -13,6 +13,7 @@ percent - Calculate the percentage of a ratio | Input: [numerator (Default: 3), 
 median - Calculate the median of a array | Input: [numbers (Array)]
 pointY - Calculates where the p0int is when y = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
 pointX - Calculates where the p0int is when x = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
+temp - Calculate the temperature conversion | Input: [n, from, to]
 
 Text --------------------------------
 

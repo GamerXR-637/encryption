@@ -98,6 +98,7 @@ cylinderVolume - Calculate the volume of a cylinder | Input: [radius (Default: 3
 <br>median - Calculate the median of a array | Input: [numbers (Array)]
 <br>pointY -  Calculates where the p0int is when y = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
 <br>pointX - Calculates where the p0int is when x = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
+<br>temp - Calculate the temperature conversion | Input: [n, from, to]
 
 ## Text
 

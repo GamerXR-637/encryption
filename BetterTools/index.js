@@ -19,6 +19,7 @@ const { percent } = require("./math/percent.js");
 const { median } = require("./math/median.js");
 const { pointY } = require("./math/pointY.js");
 const { pointX } = require("./math/pointX.js");
+const { temp } = require("./math/temp.js");
 
 const { textToBinary } = require("./text/binary.js");
 const { morseCode } = require("./text/morseCode.js");
@@ -52,5 +53,7 @@ module.exports = {
   median,
   sleep,
   load,
+  temp,
   cat,
 };
+

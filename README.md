@@ -81,6 +81,14 @@ FunctionName(parameters)
 // Output: eba3b5,5c9f33,4c7bd5
 ```
 
+## seededRandom(seed)
+
+```JavaScript
+console.log(seededRandom(37))
+// Will return 0.00028957519707230404
+```
+
+
 # Functions Names
 
 ## Math

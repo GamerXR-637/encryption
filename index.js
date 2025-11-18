@@ -10,3 +10,7 @@ console.log(BetterTools.betterUUID(4));
 
 console.log(BetterTools.randomInt(109));
 // Will get a random integer from 0 to 109
+
+console.log(BetterTools.temp(37,"c","f"))
+// Will get 98.6 back
+console.log(BetterTools.seededRandom(37))

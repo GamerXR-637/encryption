@@ -11,12 +11,16 @@ const colors = {
 
 /**
  * Console Log in color
- * black, red, green, yellow, blue, magenta, cyan, white
  *
- * @param {string} [color] The color of the text?
- * @param {string} [text] Input string
+ * @param {'red' | 'green' | 'yellow'| 'blue' | 'magenta' | 'cyan'} color The color of the text?
+ * @param {string} text Input string
  */
 function colorTerminal(text, color) {
+  const listcolor = ['red', 'green',  'yellow', 'blue', 'magenta',  'cyan']
+    if (!listcolor.includes(fromUnit)) {
+    console.log(`${colors[red]}That is not a valid color${colors.reset}`);
+  }
+
   if (text && colors[color]) {
     console.log(`${colors[color]}${text}${colors.reset}`);
   } else if (text) {

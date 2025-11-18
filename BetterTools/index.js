@@ -2,6 +2,7 @@ const { colorTerminal } = require("./tools/colorTerminal.js");
 const { seededRandom } = require("./tools/seededRandom.js");
 const { betterUUID } = require("./tools/betterUUID.js");
 const { Randcolor } = require("./tools/Randcolor.js");
+const { RandSeed } = require("./tools/RandSeed.js");
 const { rgbToHex } = require("./tools/rgbtohex.js");
 const { scope } = require("./tools/scope.js");
 const { sleep } = require("./tools/sleep.js");
@@ -44,6 +45,7 @@ module.exports = {
   triangle,
   truncate,
   rgbToHex,
+  RandSeed,
   average,
   inRange,
   percent,

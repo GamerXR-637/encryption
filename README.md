@@ -85,7 +85,7 @@ FunctionName(parameters)
 
 ```JavaScript
 console.log(seededRandom(37))
-// Will return 0.00028957519707230404
+// Will return 0.0002615799930373639
 ```
 
 
@@ -117,7 +117,8 @@ binary - Turn text into Binary | Input: [text]
 ## Tools
 
 colorTerminal - Logs in color | Input: [text, color]
-<br>seededRandom - Get a random number based on a seed | Input: [seed (Default: 637)]
+<br>seededRandom - Get a random number based on a seed | Input: [seed (Default: 37)]
+<br>seededRandom - Get a random number based on a seed with Math.random() | Input: [seed (Default: 37)]
 <br>betterUUID - Create a custom UUID | Input: [number (Default: 3)]
 <br>Randcolor - Get random color | Input: [number (Default: 1), hash (Default: true)]
 <br>rgbtohex - Convert RGB to Hex | Input: [r, g, b]

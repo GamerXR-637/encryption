@@ -24,7 +24,8 @@ truncate - Cut the text with "..." | Input: [text, number (Default: 5)]
 Tools --------------------------------
 
 colorTerminal - Logs in color | Input: [text, color]
-seededRandom - Get a random number based on a seed | Input: [seed (Default: 637)]
+seededRandom - Get a random number based on a seed | Input: [seed (Default: 37)]
+seededRandom - Get a random number based on a seed with Math.random() | Input: [seed (Default: 37)]
 betterUUID - Create a custom UUID | Input: [number (Default: 3)]
 Randcolor - Get random color | Input: [number (Default: 1), hash (Default: true)]
 rgbtohex - Convert RGB to Hex | Input: [r, g, b]

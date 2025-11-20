@@ -61,7 +61,7 @@ FunctionName(parameters)
 // Input: Number how many sections to have ( Default: 3 )
   let uuid = betterUUID()
   console.log(uuid)
-// Output: UF7lsEa6-yuB0-QPd82
+// Output: 7Uyzvv-ZXhsvFp-K9025qqGPG
 ```
 
 ## Randcolor(number, hash)

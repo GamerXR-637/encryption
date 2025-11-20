@@ -1,17 +1,10 @@
 # BetterTools
 
 Some basic tools to make your project easier and better!
-All of these function are not used in other function.
+All of the function are not dependent for each other and can run by it self.
 That mean you can just copy the code of one of the function that you need without downloading all the function.
 And some will have comments to explain how it works
 
-Some categories are:
-
-- Utilities
-- Misc
-- Strings
-- Math
-- More
 
 ## Setup
 

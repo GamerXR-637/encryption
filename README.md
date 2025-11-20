@@ -122,7 +122,6 @@ colorTerminal - Logs in color | Input: [text, color]
 <br>betterUUID - Create a custom UUID | Input: [number (Default: 3)]
 <br>Randcolor - Get random color | Input: [number (Default: 1), hash (Default: true)]
 <br>rgbtohex - Convert RGB to Hex | Input: [r, g, b]
-<br>scope - Loop and delay a function | Input: [fun, loop, delay]
 <br>sleep - Cause a the code to pause for n | Input: [seconds (Default: 10)]
 
 ## Useless

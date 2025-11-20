@@ -4,7 +4,6 @@ const { betterUUID } = require("./tools/betterUUID.js");
 const { Randcolor } = require("./tools/Randcolor.js");
 const { RandSeed } = require("./tools/RandSeed.js");
 const { rgbToHex } = require("./tools/rgbtohex.js");
-const { scope } = require("./tools/scope.js");
 const { sleep } = require("./tools/sleep.js");
 
 const { cylinderVolume } = require("./math/cylinderVolume.js");
@@ -50,7 +49,6 @@ module.exports = {
   inRange,
   percent,
   pointY,
-  scope,
   pointX,
   median,
   sleep,

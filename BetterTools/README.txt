@@ -29,7 +29,6 @@ seededRandom - Get a random number based on a seed with Math.random() | Input: [
 betterUUID - Create a custom UUID | Input: [number (Default: 3)]
 Randcolor - Get random color | Input: [number (Default: 1), hash (Default: true)]
 rgbtohex - Convert RGB to Hex | Input: [r, g, b]
-scope - Loop and delay a function | Input: [fun, loop, delay]
 sleep - Cause a the code to pause for n | Input: [seconds (Default: 10)]
 
 Useless --------------------------------

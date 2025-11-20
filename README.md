@@ -86,39 +86,39 @@ console.log(seededRandom(37))
 
 ## Math
 
-cylinderVolume - Calculate the volume of a cylinder | Input: [radius (Default: 3), pi (Default: true), hight (Default: 2)]
-<br>multiplyPoly - Calculate the product of 2 polynomials | Input: [poly1 (Array), poly2 (Array)]
-<br>pointSlope - Calculate the y=mx+b formula from 2 point | Input: [x1, y1, x2, y2]
-<br>circleArea - Calculate the area of a circle | Input: [radius (Default: 3), pi (Default: true)]
-<br>randomInt - Get a random Integer | Input: [number (Default: 10)]
-<br>quadratic - Get the zeros of a quadratic formula | Input: [a (Default: 1), b (Default: 4), c (Default: 3)]
-<br>triangle - Calculate the area of a triangle | Input: [legOne (Default: 3), legTwo (Default: 4)]
-<br>average - Calculate the average of a array | Input: [numbers (Array)]
-<br>inRange - Get if a number is in range | Input: [x (Default: 0), y (Default: 10), value (Default: 1)]
-<br>percent - Calculate the percentage of a ratio | Input: [numerator (Default: 3), denominator (Default: 4)]
-<br>median - Calculate the median of a array | Input: [numbers (Array)]
-<br>pointY -  Calculates where the p0int is when y = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
-<br>pointX - Calculates where the p0int is when x = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
-<br>temp - Calculate the temperature conversion | Input: [n, from, to]
+**cylinderVolume** - Calculate the volume of a cylinder | Input: [radius (Default: 3), pi (Default: true), hight (Default: 2)]
+<br>**multiplyPoly** - Calculate the product of 2 polynomials | Input: [poly1 (Array), poly2 (Array)]
+<br>**pointSlope** - Calculate the y=mx+b formula from 2 point | Input: [x1, y1, x2, y2]
+<br>**circleArea** - Calculate the area of a circle | Input: [radius (Default: 3), pi (Default: true)]
+<br>**randomInt** - Get a random Integer | Input: [number (Default: 10)]
+<br>**quadratic** - Get the zeros of a quadratic formula | Input: [a (Default: 1), b (Default: 4), c (Default: 3)]
+<br>**triangle** - Calculate the area of a triangle | Input: [legOne (Default: 3), legTwo (Default: 4)]
+<br>**average** - Calculate the average of a array | Input: [numbers (Array)]
+<br>**inRange** - Get if a number is in range | Input: [x (Default: 0), y (Default: 10), value (Default: 1)]
+<br>**percent** - Calculate the percentage of a ratio | Input: [numerator (Default: 3), denominator (Default: 4)]
+<br>**median** - Calculate the median of a array | Input: [numbers (Array)]
+<br>**pointY** -  Calculates where the p0int is when y = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
+<br>**pointX** - Calculates where the p0int is when x = n | Input: [x (Default: 3), y (Default: 4), n (Default: 1)]
+<br>**temp** - Calculate the temperature conversion | Input: [n, from, to]
 
 ## Text
 
-binary - Turn text into Binary | Input: [text]
-<br>morseCode - Turn text into Morse Code | Input: [text]
-<br>truncate - Cut the text with "..." | Input: [text, number (Default: 5)]
+**binary** - Turn text into Binary | Input: [text]
+<br>**morseCode** - Turn text into Morse Code | Input: [text]
+<br>**truncate** - Cut the text with "..." | Input: [text, number (Default: 5)]
 
 ## Tools
 
-colorTerminal - Logs in color | Input: [text, color]
-<br>seededRandom - Get a random number based on a seed | Input: [seed (Default: 37)]
-<br>seededRandom - Get a random number based on a seed with Math.random() | Input: [seed (Default: 37)]
-<br>betterUUID - Create a custom UUID | Input: [number (Default: 3)]
-<br>Randcolor - Get random color | Input: [number (Default: 1), hash (Default: true)]
-<br>rgbtohex - Convert RGB to Hex | Input: [r, g, b]
-<br>sleep - Cause a the code to pause for n | Input: [seconds (Default: 10)]
+**colorTerminal** -> Logs in color | Input: [text, color]
+<br>**seededRandom** -> Get a random number based on a seed | Input: [seed (Default: 37)]
+<br>**seededRandom** -> Get a random number based on a seed with Math.random() | Input: [seed (Default: 37)]
+<br>**betterUUID** -> Create a custom UUID | Input: [number (Default: 3)]
+<br>**Randcolor** -> Get random color | Input: [number (Default: 1), hash (Default: true)]
+<br>**rgbtohex** -> Convert RGB to Hex | Input: [r, g, b]
+<br>**sleep** -> Cause a the code to pause for n | Input: [seconds (Default: 10)]
 
 ## Useless
 
 
-cat - Just Cat | Input: [text]
-<br>load - Create a loading sign | Input: [message, n]
+**cat** - Just Cat | Input: [text]
+<br>**load** - Create a loading sign | Input: [message, n]
